@@ -1,0 +1,26 @@
+.container{
+    width: 75%;
+    margin: auto;
+  }
+  #teams{
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    width: 25%;
+  }
+  .team{
+    border: 2px solid black;
+  }
+  #history{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+  }
+  #history h1{
+    text-align: center;
+  }
+  #output{
+    margin-left: 30px;
+    padding: 10px;
+    border: 2px solid black;
+  }

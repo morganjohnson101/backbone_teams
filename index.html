@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Premier League</title>
+    <link rel="stylesheet" href="teams.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="underscore-umd-min.js"></script>
+    <script src="backbone.js"></script>
+    <script id="team-name-template" type="text/template">
+    <%= name %>
+  </script>
+    <script id="team-history-template" type="text/template">
+    <h2><%= name %></h2>
+    <h2>Nickname: <%= nickname %></h2>
+    <h2>Founded: <%= founded %></h2>
+  </script>
+</head>
+
+<body>
+    <div class="container">
+        <ul id="teams"></ul>
+        <div id="history">
+            <h1>Team History</h1>
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="teams.js"></script>
+</body>
+
+</html>
